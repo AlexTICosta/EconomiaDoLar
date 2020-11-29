@@ -1,0 +1,19 @@
+a {
+    margin: 5px;
+}
+
+.container{
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    background-image: url("/assets/images/mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron {
+    font-family: 'Architects Daughter', cursive;
+    background-color: transparent;
+    color: #eeeeee;
+}

@@ -1,0 +1,31 @@
+.table {
+    white-space: nowrap;
+}
+
+.card{
+    margin: 5% 5%;
+}
+
+.edit{background-color: #0062cc;}
+
+.delete{
+    background-color: #d63030;
+}
+.actions{
+    align-content: center;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;padding: 6px;
+    margin: 0px 5px;
+}
+.actions:hover{
+    text-decoration: none;
+    color: #eeeeee;
+}
+.body-content{
+    background-image: url("/assets/images/mountains.jpg");
+}
+
+a {
+    margin: 5px;
+}
