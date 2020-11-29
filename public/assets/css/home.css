@@ -8,12 +8,13 @@ a {
 
 body {
     width: 100%;
-    background-image: url("/assets/images/mountains.jpg");
+    background-image: url("/assets/images/wallpaper_secondOption.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .jumbotron {
     font-family: 'Architects Daughter', cursive;
     background-color: transparent;
-    color: #eeeeee;
+    color: #3d0894;
+
 }

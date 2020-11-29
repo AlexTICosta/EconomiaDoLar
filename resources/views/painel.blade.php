@@ -15,21 +15,31 @@
     </div>
     @if( isset($dados))
         <section class="content">
-            @foreach($dados as $item)
-                @if($item->tipo == 'Fixo mensal')
+
+            <div class="row">
+                @foreach($dados as $item)
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
                             <h5 class="card-title">{{$item->tipo}}</h5>
                             <div class="input-group mb-2">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">R$ </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Valor de gastos em contas fixas</h5>
+                                    <div class="col-auto">
+                                        <label class="sr-only" for="inlineFormInputGroup"></label>
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">@</div>
+                                            </div>
+                                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username" value="{{$item->valor}}">
+                                        </div>
+                                    </div>
                                 </div>
-                                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Usuário" value="{{array_sum($item->valor)}}">
                             </div>
                         </div>
                     </div>
-                @endif
-            @endforeach
+                @endforeach
+            </div>
+
             <div class="container-fluid">
 
             </div>
